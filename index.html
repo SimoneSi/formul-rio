@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Formulário com JavaScript</title>
+</head>
+
+<body>
+    <main>
+        <section class="form">
+            <div class="texto">                
+                <p class="titulo">Ficou com dúvida?</p>
+                <p class="subtitulo"> Nos mande uma mensagem!</p>
+                <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>            
+            </div>
+            <form action="#" method="get" class="formulario">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo *" class="campo">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="text" name="email" id="email" placeholder="Email *" class="campo">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="campo">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <textarea name="texto" id="" cols="20" rows="10" placeholder="Mensagem *" class="campo mensagem"></textarea>
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <p class="aviso">*campos obrigatórios</p>
+
+                <input type="button" id="botao-envio" class="botao" value="Enviar">
+            </form>
+        </section>
+    </main>
+<script src="./js/formulario.js"></script>
+</body>
+
+</html>
