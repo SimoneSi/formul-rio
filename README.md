@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Evento de Formulário
 Projeto com evento de formulário change, assim para que sua interface responda rapidamente o evento de toque foi adicionado como parâmetro a um listener🧐
 
@@ -10,6 +10,3 @@ Projeto com evento de formulário change, assim para que sua interface responda 
 - HTML
 - CSS
 - JavaScript
-=======
-# Evento de Formulario
->>>>>>> e49d1538683784723f8357c6b74fe341392717ee
